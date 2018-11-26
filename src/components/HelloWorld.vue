@@ -32,10 +32,10 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
+    name: 'HelloWorld',
+    props: {
+        msg: String
+    }
 }
 </script>
 
@@ -49,7 +49,7 @@ ul {
   padding: 0;
 }
 li {
-  display: inline-block;
+    display: inline-block;
   margin: 0 10px;
 }
 a {
