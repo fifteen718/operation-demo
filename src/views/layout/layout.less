@@ -1,0 +1,59 @@
+.layoutPage {
+    height: 100%;
+    .layoutHeader {
+        line-height: 48px;
+        color: #fff;
+        background-color: #37363B;
+        .titleName {
+            font-size: 24px;
+            margin-left: 20px;
+        }
+        .userName {
+            font-size: 16px;
+            position: absolute;
+            right: 55px;
+            top: 0;
+        }
+        .signoutImg {
+            position: absolute;
+            right: 30px;
+            top: 16px;
+            cursor: pointer;
+        }
+    }
+    .layoutAside {
+        background-color: #37363B;
+        .hideMenuDiv {
+            font-size: 16px;
+            color: white;
+            height: 56px;
+            line-height: 56px;
+            text-align: center;
+            user-select: none;
+            cursor: pointer;
+            &:hover {
+                background-color: #2C2B2F;
+            }
+            >i {
+                margin-right: 2px;
+            }
+        }
+        .elMenu {
+            border: none;
+            &:not(.el-menu--collapse) {
+                width: 200px;
+            }
+        }
+    }
+    .layoutMain {
+        padding: 0 22px;
+        background: #fff;
+        .layoutBreadcrumb {
+            height: 48px;
+            line-height: 48px;
+            border-bottom: 1px dashed #dcdcdc;
+            margin-bottom: 20px;
+        }
+    }
+}
+

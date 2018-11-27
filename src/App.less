@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+html, body, #app{
+    height: 100%;
+    // overflow: hidden;
+}
+.lk-toolbar {
+    > * {
+        margin-bottom: 20px !important;
+    }
+    .el-input {
+        width: 169px;
+        margin-right: 10px;
+    }
+    .el-date-editor {
+        margin-right: 10px;
+    }
+}
+
+.lk-form {
+    .el-input {
+        width: 300px;
+    }
+    .el-form-item {
+        width: 450px;
+        margin: 0 auto;
+        margin-bottom: 22px;
+    }
+}
+
+.el-table td, .el-table th {
+    padding: 6px 0;
+}
+
+// 富文本显示调整 --start
+.ql-container {
+    height: 150px !important;
+}
+.ql-snow .ql-picker {
+    height: 36px !important;
+}
+// 富文本显示调整 --end
+
+.is-error-input {
+    >input {
+        border: 1px solid #f56c6c;
+        &:focus {
+            border: 1px solid #f56c6c;
+        }
+    }
+}
+.el-input__error {
+    color: #f56c6c;
+    font-size: 12px;
+    line-height: 1;
+}
+

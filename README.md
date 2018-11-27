@@ -27,3 +27,10 @@ yarn run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### 备注
+如果 vee-validate 在项目运行时报错 请重新安装旧版本 操作如下：
+
+`npm uninstall vee-validate`
+
+`npm install vee-validate@2.0.0-rc.25`

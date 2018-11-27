@@ -1,0 +1,20 @@
+.icon-user {
+    display: inline-block;
+    background: url('./login/user.png') center no-repeat;
+    background-size: 75%;
+}
+.icon-userLight {
+    display: inline-block;
+    background: url('./login/userLight.png') center no-repeat;
+    background-size: 75%;
+}
+.icon-pwd {
+    display: inline-block;
+    background: url('./login/pwd.png') center no-repeat;
+    background-size: 75%;
+}
+.icon-pwdLight {
+    display: inline-block;
+    background: url('./login/pwdLight.png') center no-repeat;
+    background-size: 75%;
+}
