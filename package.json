@@ -11,7 +11,7 @@
     "axios": "^0.18.0",
     "element-ui": "^2.4.6",
     "moment": "^2.22.2",
-    "vee-validate": "^2.0.0-rc.25",
+    "vee-validate": "2.0.0-rc.25",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1"
   },
@@ -23,8 +23,8 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0-0",
-    "vue-template-compiler": "^2.5.17",
     "less": "^3.8.1",
-    "less-loader": "^4.1.0"
+    "less-loader": "^4.1.0",
+    "vue-template-compiler": "^2.5.17"
   }
 }

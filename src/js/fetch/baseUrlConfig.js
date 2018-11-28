@@ -1,7 +1,7 @@
 const config = {
-    'localhost': {
-        baseUrl: 'http://yapi.youximao.cn/mock/33/'
-    },
+    // 'localhost': {
+    //     baseUrl: 'http://yapi.youximao.cn/mock/33/'
+    // },
     'admin.dev.leke.com': {
         baseUrl: 'http://oms.dev.leke.com/'
     },
@@ -15,6 +15,10 @@ const config = {
 
 const configParams = config[location.hostname]
 
-const baseUrl = configParams.baseUrl
+if (configParams) {
+    window.baseUrl = configParams.baseUrl
+}
+
+const baseUrl = window.baseUrl
 
 export default baseUrl

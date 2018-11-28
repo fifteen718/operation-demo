@@ -31,6 +31,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ### 备注
 如果 vee-validate 在项目运行时报错 请重新安装旧版本 操作如下：
 
-`npm uninstall vee-validate`
+`npm uninstall vee-validate` 或 `yarn remove vee-validate`
 
-`npm install vee-validate@2.0.0-rc.25`
+`npm install vee-validate@2.0.0-rc.25` 或 `yarn add vee-validate@2.0.0-rc.25`
