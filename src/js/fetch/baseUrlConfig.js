@@ -2,6 +2,9 @@ const config = {
     // 'localhost': {
     //     baseUrl: 'http://yapi.youximao.cn/mock/33/'
     // },
+    // 'localhost': {
+    //     baseUrl: 'http://localhost:3000/'
+    // },
     'admin.dev.leke.com': {
         baseUrl: 'http://oms.dev.leke.com/'
     },
