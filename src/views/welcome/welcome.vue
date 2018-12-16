@@ -1,19 +1,5 @@
 <template>
     <div class="welcomePage">
-        <div class="content">{{ msg }}</div>
+        <p>欢迎来到{{$brandInfo.brandName}}管理后台！</p>
     </div>
 </template>
-
-<script>
-export default {
-    data() {
-        return {
-            msg: '乐 客 管 理 后 台 - 首 站'
-        }
-    }
-}
-</script>
-
-<style lang="less" scoped>
-@import './welcome.less';
-</style>

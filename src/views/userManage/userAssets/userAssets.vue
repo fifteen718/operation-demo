@@ -44,6 +44,7 @@
             v-loading="tableLoading"
             element-loading-text="拼命加载中"
             @sort-change="sortEvent"
+            height="100%"
             border>
             <el-table-column type="index" width="50" label="序号"></el-table-column>
             <el-table-column prop="uid" label="ID"></el-table-column>

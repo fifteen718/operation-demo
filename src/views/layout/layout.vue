@@ -1,30 +1,32 @@
 <template>
     <el-container class="layoutPage">
         <el-header class="layoutHeader" height="48px">
-            <label class="titleName">乐客管理后台</label>
+            <label class="titleName">{{$brandInfo.brandName}}管理后台</label>
             <label class="userName">{{userInfo.userName}}</label>
             <img @click="signOut" class="signoutImg" src="@/assets/icon_signout.png" alt="退出">
         </el-header>
         <el-container>
             <div class="layoutAside">
-                <el-tooltip class="item" effect="dark" placement="left" :content="isCollapse ? '展开菜单' : '隐藏菜单'">
-                    <div class="hideMenuDiv" @click="isCollapse = !isCollapse">
-                        <template v-if="isCollapse">
+                <template v-if="isCollapse">
+                    <el-tooltip class="item" effect="dark" placement="left" content="展开菜单">
+                        <div class="hideMenuDiv" @click="isCollapse = !isCollapse">
                             <i class="el-icon-d-arrow-right"></i>
-                        </template>
-                        <template v-else>
-                            <i class="el-icon-d-arrow-left"></i>
-                        </template>
+                        </div>
+                    </el-tooltip>
+                </template>
+                <template v-else>
+                    <div class="hideMenuDiv" @click="isCollapse = !isCollapse">
+                        <i class="el-icon-d-arrow-left"> 隐藏菜单</i>
                     </div>
-                </el-tooltip>
+                </template>
                 <el-menu
                 :unique-opened="true"
                 :router="true"
                 :collapse="isCollapse"
                 class="elMenu"
                 text-color="#fff"
-                background-color="#37363B"
-                active-text-color="#ffd04b"
+                background-color="#37363b"
+                active-text-color="#ff9234"
                 :default-active="$route.name">
                 <el-menu-item index="welcome">
                     <i class="el-icon-location-outline"></i>
@@ -54,7 +56,7 @@
                     <el-breadcrumb-item v-if="$route.meta && $route.meta.preTitle">{{ $route.meta.preTitle }}</el-breadcrumb-item>
                     <el-breadcrumb-item v-if="$route.meta && $route.meta.title">{{ $route.meta.title }}</el-breadcrumb-item>
                 </el-breadcrumb>
-                <router-view/>
+                <router-view :style="'height:' + routerViewHeight + 'px'"/>
             </el-main>
         </el-container>
     </el-container>
@@ -68,11 +70,13 @@ export default {
             menus: [],
             userInfo: {
                 userName: ''
-            }
+            },
+            routerViewHeight: 300
         }
     },
     created() {
         this.initMenu()
+        this.routerViewHeight = (document.body.clientHeight - 220) > 300 ? (document.body.clientHeight - 220) : 300
     },
     methods: {
         signOut() {

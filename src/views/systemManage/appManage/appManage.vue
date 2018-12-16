@@ -7,6 +7,7 @@
             :data="tableData"
             v-loading="tableLoading"
             element-loading-text="拼命加载中"
+            height="100%"
             border>
             <el-table-column type="index" width="50" label="序号"></el-table-column>
             <el-table-column prop="ctime" min-width="150" label="创建时间" :formatter="$dateFormatter"></el-table-column>

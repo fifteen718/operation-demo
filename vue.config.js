@@ -3,12 +3,12 @@
 module.exports = {
     devServer: {
         proxy: {
-            '/web/uc': {
+            '/web/*': {
                 target: 'http://172.16.16.245:3000/',
                 changeOrigin: true,
                 ws: true,
                 pathRewrite: {
-                  '^/web/uc': '/api'
+                  '^': '/api'
                 }
             }
         }

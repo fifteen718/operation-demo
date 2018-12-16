@@ -1,0 +1,171 @@
+/**
+ * 分页查询用户资产信息
+ * @url /web/uc/queryUserAssets
+ */
+module.exports = function() {
+    return {
+        "code": "2000",
+        "message": "成功",
+        "data": {
+            "list": [
+            {
+                "consumeAmount": 0,
+                "lkcBalance": 15443242.12345,
+                "mobile": "15600000000",
+                "uid": 100038,
+                "userName": "100038",
+                "userStatus": 1
+            },
+            {
+                "consumeAmount": 310.85,
+                "lkcBalance": 671317.03517,
+                "mobile": "17706525203",
+                "uid": 100018,
+                "userName": "呵呵",
+                "userStatus": 1
+            },
+            {
+                "consumeAmount": 11.17,
+                "lkcBalance": 295042.07435,
+                "mobile": "13450224184",
+                "uid": 100019,
+                "userName": "100019",
+                "userStatus": 1
+            },
+            {
+                "consumeAmount": 0.04,
+                "lkcBalance": 131287.30136,
+                "mobile": "13223714529",
+                "uid": 100013,
+                "userName": "“””<>><<>>",
+                "userStatus": 1
+            },
+            {
+                "consumeAmount": 0.42,
+                "lkcBalance": 58498,
+                "mobile": "18000000003",
+                "uid": 100060,
+                "userName": "哟哟哟",
+                "userStatus": 1
+            },
+            {
+                "consumeAmount": 0.06,
+                "lkcBalance": 25500,
+                "uid": 100052,
+                "userName": "珈名",
+                "userStatus": 1
+            },
+            {
+                "consumeAmount": 0.12,
+                "lkcBalance": 25500,
+                "mobile": "13634190677",
+                "uid": 100039,
+                "userName": "100039",
+                "userStatus": 1
+            },
+            {
+                "consumeAmount": 0.38,
+                "lkcBalance": 7500,
+                "mobile": "15958192686",
+                "uid": 100031,
+                "userName": "100031",
+                "userStatus": 1
+            },
+            {
+                "consumeAmount": 0.02,
+                "lkcBalance": 3000,
+                "mobile": "15800000001",
+                "uid": 100065,
+                "userName": "100065",
+                "userStatus": 1
+            },
+            {
+                "consumeAmount": 0.33,
+                "lkcBalance": 1500,
+                "uid": 100017,
+                "userName": "100017",
+                "userStatus": 1
+            },
+            {
+                "consumeAmount": 0.01,
+                "lkcBalance": 1497,
+                "mobile": "18000000004",
+                "uid": 100061,
+                "userName": "100061",
+                "userStatus": 1
+            },
+            {
+                "consumeAmount": 0,
+                "lkcBalance": 246,
+                "mobile": "15906632022",
+                "uid": 100022,
+                "userName": "100022",
+                "userStatus": 1
+            },
+            {
+                "consumeAmount": 0.01,
+                "lkcBalance": 1.11111,
+                "uid": 100010,
+                "userName": "lala",
+                "userStatus": 1
+            },
+            {
+                "consumeAmount": 0,
+                "lkcBalance": 0,
+                "mobile": "15900000000",
+                "uid": 100028,
+                "userName": "100028",
+                "userStatus": 1
+            },
+            {
+                "consumeAmount": 0,
+                "lkcBalance": 0,
+                "mobile": "13662405749",
+                "uid": 100033,
+                "userName": "100033",
+                "userStatus": 1
+            },
+            {
+                "consumeAmount": 0,
+                "lkcBalance": 0,
+                "uid": 100034,
+                "userName": "丐帮头",
+                "userStatus": 1
+            },
+            {
+                "consumeAmount": 0,
+                "lkcBalance": 0,
+                "mobile": "15900000001",
+                "uid": 100037,
+                "userName": "100037",
+                "userStatus": 1
+            },
+            {
+                "consumeAmount": 0,
+                "lkcBalance": 0,
+                "mobile": "13223710000",
+                "uid": 100086,
+                "userName": "100086",
+                "userStatus": 1
+            },
+            {
+                "consumeAmount": 0,
+                "lkcBalance": 0,
+                "mobile": "17825486660",
+                "uid": 100040,
+                "userName": "100040",
+                "userStatus": 1
+            },
+            {
+                "consumeAmount": 0,
+                "lkcBalance": 0,
+                "mobile": "17800000000",
+                "uid": 100042,
+                "userName": "100042",
+                "userStatus": 0
+            }
+            ],
+            "total": 50
+        }
+    }
+}

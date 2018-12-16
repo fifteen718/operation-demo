@@ -43,6 +43,7 @@
                 :data="tableData"
                 v-loading="tableLoading"
                 element-loading-text="拼命加载中"
+                height="100%"
                 border>
                 <el-table-column type="index" width="50" label="序号"></el-table-column>
                 <el-table-column prop="ctime" label="操作时间" :formatter="$dateFormatter"></el-table-column>

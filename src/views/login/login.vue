@@ -1,33 +1,36 @@
 <template>
     <div class="loginPage">
         <div class="mainContent">
-            <div class="lgTitle"><br>乐<br>客<br>后<br>台<br>管<br>理<br>系<br>统</div>
+            <h1 class="lgTitle">{{$brandInfo.brandName}}后台管理系统</h1>
             <form class="lgForm">
                 <div class="lgError">
                     <span v-if="errors.has('account')">{{errors.first('account')}}</span>
                     <span v-else-if="errors.has('password')">{{errors.first('password')}}</span>
                     <span v-else-if="showError">{{errorMsg}}</span>
                 </div>
-                <el-input class="lgInput"
-                v-model="account"
-                :prefix-icon="userIcon"
-                @focus="userIcon = 'icon-userLight'"
-                @blur="userIcon = 'icon-user'"
-                placeholder="请输入登录账号"
-                name="account"
-                v-validate="'required'"
-                data-vv-as="账号"
-                ></el-input>
-                <el-input class="lgInput"
-                v-model="password"
-                :prefix-icon="pwdIcon"
-                @focus="pwdIcon = 'icon-pwdLight'"
-                @blur="pwdIcon = 'icon-pwd'"
-                placeholder="请输入登录密码"
-                v-validate="'required'"
-                name="password"
-                data-vv-as="密码"
-                type="password"></el-input>
+                <el-input :class="[errors.has('account') ? 'is-error-input' : '', 'lgInput']"
+                    v-model="account"
+                    :prefix-icon="userIcon"
+                    @focus="userIcon = 'icon-userLight'"
+                    @blur="userIcon = 'icon-user'"
+                    placeholder="请输入登录账号"
+                    name="account"
+                    v-validate="'required'"
+                    data-vv-as="账号"
+                    @keyup.enter.native="login">
+                </el-input>
+                <el-input :class="[errors.has('password') ? 'is-error-input' : '', 'lgInput']"
+                    v-model="password"
+                    :prefix-icon="pwdIcon"
+                    @focus="pwdIcon = 'icon-pwdLight'"
+                    @blur="pwdIcon = 'icon-pwd'"
+                    placeholder="请输入登录密码"
+                    v-validate="'required'"
+                    name="password"
+                    data-vv-as="密码"
+                    type="password"
+                    @keyup.enter.native="login">
+                </el-input>
                 <el-button class="lgButton" type="primary" @click="login" :loading="disabled">
                     {{disabled ? '登 录 中' : '登 录'}}
                 </el-button>
@@ -86,7 +89,6 @@ export default {
 .lgForm {
     .el-input__inner {
         background: none;
-        color: #dcdfe6;
         &:focus {
             color: #409EFF;
         }

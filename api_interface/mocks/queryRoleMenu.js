@@ -1,0 +1,297 @@
+/**
+ * 查询分组菜单
+ * @url /web/sys/queryRoleMenu
+ */
+module.exports = function() {
+    return {
+        code: "2000",
+        message: "成功",
+        "data": {
+            "checkedMenuIds": [
+              1036138629233262600,
+              34567650980909
+            ],
+            "menuList": [
+              {
+                "children": [
+                  {
+                    "disabled": false,
+                    "menuId": 1044579735673966600,
+                    "menuName": "乐链299会员购买明细",
+                    "menuPath": "buylelianVip299Detail",
+                    "parentMenuId": 1044579485299183600
+                  },
+                  {
+                    "disabled": true,
+                    "menuId": 1044579680934105100,
+                    "menuName": "用户LKC账户变动明细",
+                    "menuPath": "LKCaccountChangeDetail",
+                    "parentMenuId": 1044579485299183600
+                  },
+                  {
+                    "disabled": false,
+                    "menuId": 1044579607156297700,
+                    "menuName": "用户购买宝箱明细",
+                    "menuPath": "buyboxDetail",
+                    "parentMenuId": 1044579485299183600
+                  },
+                  {
+                    "disabled": false,
+                    "menuId": 1044579548805140500,
+                    "menuName": "邀请好友奖励明细",
+                    "menuPath": "inviteFriendsDetail",
+                    "parentMenuId": 1044579485299183600
+                  }
+                ],
+                "disabled": true,
+                "menuIcon": "el-icon-date",
+                "menuId": 1044579485299183600,
+                "menuName": "数据明细",
+                "menuPath": "detailManage",
+                "menuRemark": "",
+                "parentMenuId": 0
+              },
+              {
+                "children": [
+                  {
+                    "disabled": false,
+                    "menuId": 1044579189231652900,
+                    "menuName": "LKC发放按日统计",
+                    "menuPath": "LKCdistributiondaily",
+                    "parentMenuId": 1044578762729656300
+                  },
+                  {
+                    "disabled": false,
+                    "menuId": 1044579068876099600,
+                    "menuName": "宝箱充值按日统计",
+                    "menuPath": "boxSavemoneydaily",
+                    "parentMenuId": 1044578762729656300
+                  },
+                  {
+                    "disabled": false,
+                    "menuId": 1044578980313370600,
+                    "menuName": "邀请好友数据统计",
+                    "menuPath": "inviteFriends",
+                    "parentMenuId": 1044578762729656300
+                  },
+                  {
+                    "disabled": false,
+                    "menuId": 1044578835664408600,
+                    "menuName": "按日统计",
+                    "menuPath": "dailyStatistical",
+                    "parentMenuId": 1044578762729656300
+                  }
+                ],
+                "disabled": false,
+                "menuIcon": "el-icon-tickets",
+                "menuId": 1044578762729656300,
+                "menuName": "数据统计",
+                "menuPath": "statisticalManage",
+                "menuRemark": "",
+                "parentMenuId": 0
+              },
+              {
+                "children": [
+                  {
+                    "disabled": false,
+                    "menuId": 1042981032974569500,
+                    "menuName": "用户资产查询",
+                    "menuPath": "userAssets",
+                    "parentMenuId": 1042980791026143200
+                  },
+                  {
+                    "disabled": false,
+                    "menuId": 1042980989479637000,
+                    "menuName": "用户日志查询",
+                    "menuPath": "userLog",
+                    "parentMenuId": 1042980791026143200
+                  },
+                  {
+                    "disabled": false,
+                    "menuId": 1042980918683979800,
+                    "menuName": "用户管理",
+                    "menuPath": "userDetail",
+                    "parentMenuId": 1042980791026143200
+                  }
+                ],
+                "disabled": false,
+                "menuIcon": "el-icon-view",
+                "menuId": 1042980791026143200,
+                "menuName": "用户管理",
+                "menuPath": "userDetail",
+                "parentMenuId": 0
+              },
+              {
+                "children": [
+                  {
+                    "disabled": false,
+                    "menuId": 1042670535620382700,
+                    "menuName": "专辑标签管理",
+                    "menuPath": "labelManage",
+                    "parentMenuId": 1042669490655678500
+                  },
+                  {
+                    "disabled": false,
+                    "menuId": 1042670444478156800,
+                    "menuName": "音频管理",
+                    "menuPath": "audioManage",
+                    "parentMenuId": 1042669490655678500
+                  },
+                  {
+                    "disabled": false,
+                    "menuId": 1042670311099289600,
+                    "menuName": "专辑管理",
+                    "menuPath": "albumManage",
+                    "parentMenuId": 1042669490655678500
+                  }
+                ],
+                "disabled": false,
+                "menuIcon": "el-icon-service",
+                "menuId": 1042669490655678500,
+                "menuName": "音频管理",
+                "menuPath": "audioManage",
+                "menuRemark": "",
+                "parentMenuId": 0
+              },
+              {
+                "children": [
+                  {
+                    "disabled": false,
+                    "menuId": 1042648880089088000,
+                    "menuName": "活动项目管理",
+                    "menuPath": "activityProjectManage",
+                    "parentMenuId": 1042648304433446900
+                  },
+                  {
+                    "disabled": false,
+                    "menuId": 1042648707417980900,
+                    "menuName": "活动标签管理",
+                    "menuPath": "activityLabelManage",
+                    "parentMenuId": 1042648304433446900
+                  },
+                  {
+                    "disabled": false,
+                    "menuId": 1042648527952101400,
+                    "menuName": "活动管理",
+                    "menuPath": "activityManage",
+                    "parentMenuId": 1042648304433446900
+                  }
+                ],
+                "disabled": false,
+                "menuIcon": "el-icon-star-off",
+                "menuId": 1042648304433446900,
+                "menuName": "路演活动管理",
+                "menuPath": "e",
+                "menuRemark": "",
+                "parentMenuId": 0
+              },
+              {
+                "disabled": false,
+                "menuIcon": "el-icon-setting",
+                "menuId": 1041526371163787300,
+                "menuName": "测试页面",
+                "menuPath": "testDemo",
+                "menuRemark": "仅开发环境打开，测试使用",
+                "parentMenuId": 0
+              },
+              {
+                "children": [
+                  {
+                    "disabled": false,
+                    "menuId": 1040804393243070500,
+                    "menuName": "开屏页管理",
+                    "menuPath": "openPageManage",
+                    "parentMenuId": 1040803850906980400
+                  },
+                  {
+                    "disabled": false,
+                    "menuId": 1040804318697705500,
+                    "menuName": "行业管理",
+                    "menuPath": "industryManage",
+                    "parentMenuId": 1040803850906980400
+                  },
+                  {
+                    "disabled": false,
+                    "menuId": 1040804230902534100,
+                    "menuName": "BANNER位管理",
+                    "menuPath": "bannerManage",
+                    "parentMenuId": 1040803850906980400
+                  }
+                ],
+                "disabled": false,
+                "menuIcon": "el-icon-picture-outline",
+                "menuId": 1040803850906980400,
+                "menuName": "运营管理",
+                "menuPath": "c",
+                "menuRemark": "",
+                "parentMenuId": 0
+              },
+              {
+                "children": [
+                  {
+                    "disabled": false,
+                    "menuId": 1042696433815998500,
+                    "menuName": "消息管理",
+                    "menuPath": "msgManage",
+                    "parentMenuId": 1037661848711409700
+                  }
+                ],
+                "disabled": false,
+                "menuIcon": "el-icon-message",
+                "menuId": 1037661848711409700,
+                "menuName": "信息管理",
+                "menuPath": "msgManage",
+                "menuRemark": "",
+                "parentMenuId": 0
+              },
+              {
+                "children": [
+                  {
+                    "disabled": false,
+                    "menuIcon": "el-icon-date",
+                    "menuId": 1036138629233262600,
+                    "menuName": "分组权限管理",
+                    "menuPath": "roleManage",
+                    "menuRemark": "我是权限备注",
+                    "parentMenuId": 1032146087424770000
+                  },
+                  {
+                    "disabled": false,
+                    "menuIcon": "",
+                    "menuId": 1032146280702492700,
+                    "menuName": "后台帐号管理",
+                    "menuPath": "accountManage",
+                    "menuRemark": "“我是备注”",
+                    "parentMenuId": 1032146087424770000
+                  },
+                  {
+                    "disabled": false,
+                    "menuIcon": "",
+                    "menuId": 3432876543456432000,
+                    "menuName": "权限分配",
+                    "menuPath": "menusManage",
+                    "menuRemark": "我是权限备注",
+                    "parentMenuId": 1032146087424770000
+                  },
+                  {
+                    "disabled": false,
+                    "menuId": 34567650980909,
+                    "menuName": "修改密码",
+                    "menuPath": "pwdManage",
+                    "menuRemark": "",
+                    "parentMenuId": 1032146087424770000
+                  }
+                ],
+                "disabled": false,
+                "menuIcon": "el-icon-setting",
+                "menuId": 1032146087424770000,
+                "menuName": "系统管理",
+                "menuPath": "a",
+                "menuRemark": "",
+                "parentMenuId": 0
+              }
+            ]
+        }
+    }
+}
+  
