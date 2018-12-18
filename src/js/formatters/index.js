@@ -99,7 +99,6 @@ formatters.registerTypeFormatter = (row, column, cellValue, index) => {
 
 // 是否vip
 formatters.isVipFormatter = (row, column, cellValue, index) => {
-    // true 是；false 否
     return cellValue ? '是' : '否'
 }
 
@@ -133,12 +132,6 @@ formatters.genderFormatter = (row, column, cellValue, index) => {
 formatters.osTypeFormatter = (row, column, cellValue, index) => {
     // 1 iOS；2 Android
     return cellValue === 1 ? 'iOS' : 'Android'
-}
-
-// 用户状态
-formatters.userStatusFormatter = (row, column, cellValue, index) => {
-    // 1 正常；0 冻结
-    return cellValue ? '正常' : '冻结'
 }
 
 // 用户段位 1.青铜 2.白银 3.黄金 4.铂金 5.钻石 6.至尊

@@ -19,7 +19,7 @@ module.exports = {
         'camelcase': 0, // 强制驼峰法命名 - 关闭
         'no-undef': 0, // 不能有未定义的变量 - 关闭
         'no-alert': 0, // 禁止使用alert confirm prompt - 关闭
-        'arrow-parens': 0 // 箭头函数用小括号括起来 - 关闭 
+        'arrow-parens': 0 // 箭头函数用小括号括起来 - 关闭
     },
     parserOptions: {
         parser: 'babel-eslint'

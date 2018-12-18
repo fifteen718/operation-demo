@@ -76,7 +76,10 @@
 <script>
 export default {
     props: {
-        value: false,
+        value: {
+            type: Boolean,
+            default: false
+        },
         dialogData: {}
     },
     data() {

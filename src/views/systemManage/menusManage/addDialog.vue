@@ -3,8 +3,7 @@
         <el-form
         class="lk-form"
         label-position="right"
-        label-width="100px"
-        >
+        label-width="100px">
             <el-form-item label="权限名">
                 <el-input v-model="formData.menuName"></el-input>
             </el-form-item>
@@ -45,8 +44,14 @@
 <script>
 export default {
     props: {
-        value: false,
-        dialogData: null
+        value: {
+            type: Boolean,
+            default: false
+        },
+        dialogData: {
+            type: Object,
+            default: null
+        }
     },
     data() {
         return {

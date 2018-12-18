@@ -1,9 +1,7 @@
 const config = {
+    // 如需使用yapi的mock数据 请将打开以下注释
     // 'localhost': {
     //     baseUrl: 'http://yapi.youximao.cn/mock/33/'
-    // },
-    // 'localhost': {
-    //     baseUrl: 'http://localhost:3000/'
     // },
     'admin.dev.leke.com': {
         baseUrl: 'http://oms.dev.leke.com/'

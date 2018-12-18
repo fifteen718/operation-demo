@@ -97,10 +97,6 @@ export default {
     },
     methods: {
         queryList() {
-            // if (!this.queryParams.uid && !this.queryParams.mobile && !this.queryParams.userName) {
-            //     this.$message.error('请输入用户ID或手机号或用户昵称')
-            //     return
-            // }
             this.tableLoading = true
             this.$apis.queryUserAssets(this.queryParams).then(res => {
                 this.tableLoading = false
