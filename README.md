@@ -63,7 +63,6 @@ yarn build
 * [vue-router](https://router.vuejs.org/zh/) 路由管理器
 * [vee-validate](https://baianat.github.io/vee-validate/) 表单校验工具
 * [less](http://lesscss.cn/) CSS预处理语言
-* [express-mockjs](https://github.com/52cik/express-mockjs) mock工具
 * [eslint](https://eslint.org/) 代码规范的检查工具
 * [yarn](https://yarn.bootcss.com/) 依赖管理工具
 * [webpack](https://webpack.docschina.org/concepts/) 模块打包工具
