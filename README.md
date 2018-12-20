@@ -1,8 +1,5 @@
 # operation-demo
-> 后台管理系统模板
-
-#在线预览
-> [operation-preview](https://fifteen718.github.io/operation-preview/#/login)
+> 后台管理系统模板 [预览](https://fifteen718.github.io/operation-preview/#/login)
 
 ## 功能简述
 1. 主界面包含: 登录页面；首页；用户管理(用户资产查询、用户日志查询、用户管理)；系统管理（分组权限管理、APP版本管理、后台账号管理、权限分配、修改密码）。
