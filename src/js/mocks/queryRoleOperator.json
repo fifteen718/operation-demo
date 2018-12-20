@@ -1,0 +1,89 @@
+{
+    "code": "2000",
+    "message": "成功",
+    "data": {
+      "sysOperatorDtos": [
+        {
+          "operatorId": "1032141988272779266",
+          "operatorName": "ljl"
+        },
+        {
+          "operatorId": "1034353549162729473",
+          "operatorName": "aaaa"
+        },
+        {
+          "operatorId": "1034353879015378945",
+          "operatorName": "bbb"
+        },
+        {
+          "operatorId": "1034353921486901250",
+          "operatorName": "bbbn"
+        },
+        {
+          "operatorId": "1034353969834643458",
+          "operatorName": "bgfd"
+        },
+        {
+          "operatorId": "1034354003770757122",
+          "operatorName": "hbgfcd"
+        },
+        {
+          "operatorId": "1034354035714576386",
+          "operatorName": "jhgf"
+        },
+        {
+          "operatorId": "1034354081931612162",
+          "operatorName": "jhgf"
+        },
+        {
+          "operatorId": "1034354133118898178",
+          "operatorName": "reret"
+        },
+        {
+          "operatorId": "1034354212445769730",
+          "operatorName": "vcb"
+        },
+        {
+          "operatorId": "1034354253340233729",
+          "operatorName": "uytrfd"
+        },
+        {
+          "operatorId": "1034354287267958786",
+          "operatorName": "jhgvfc"
+        },
+        {
+          "operatorId": "1034354326405009409",
+          "operatorName": "trejy"
+        },
+        {
+          "operatorId": "1034354371028209665",
+          "operatorName": "dsf"
+        },
+        {
+          "operatorId": "1034354413499731969",
+          "operatorName": "jhgfcd"
+        },
+        {
+          "operatorId": "1034354443530948609",
+          "operatorName": "vcx"
+        },
+        {
+          "operatorId": "1034354486505787394",
+          "operatorName": "vcb"
+        },
+        {
+          "operatorId": "1034354532668297217",
+          "operatorName": "jhbgvc"
+        },
+        {
+          "operatorId": "1034354573113970690",
+          "operatorName": "jhbgvc"
+        },
+        {
+          "operatorId": "1034354589677277186",
+          "operatorName": "jhbgvc"
+        }
+      ],
+      "total": 41
+    }
+}

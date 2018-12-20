@@ -1,0 +1,33 @@
+{
+    "code": "2000",
+    "data": {
+      "list": [
+        {
+          "amount": 200,
+          "icon": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1545296423163&di=5222fa22340e3af07af9097debaa0a8c&imgtype=0&src=http%3A%2F%2Fku.90sjimg.com%2Fback_pic%2F04%2F91%2F91%2F77590f16815bcbe.jpg%2521%2Ffwfh%2F804x502%2Fquality%2F90%2Funsharp%2Ftrue%2Fcompress%2Ftrue%2Fwatermark%2Ftext%2FOTDorr7orqE%3D%2Ffont%2Fsimkai%2Falign%2Fsoutheast%2Fopacity%2F20%2Fsize%2F50",
+          "id": 2,
+          "ranking": 1,
+          "result": 1,
+          "title": "乐创梦工厂"
+        },
+        {
+          "amount": 109,
+          "icon": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1545296423163&di=5222fa22340e3af07af9097debaa0a8c&imgtype=0&src=http%3A%2F%2Fku.90sjimg.com%2Fback_pic%2F04%2F91%2F91%2F77590f16815bcbe.jpg%2521%2Ffwfh%2F804x502%2Fquality%2F90%2Funsharp%2Ftrue%2Fcompress%2Ftrue%2Fwatermark%2Ftext%2FOTDorr7orqE%3D%2Ffont%2Fsimkai%2Falign%2Fsoutheast%2Fopacity%2F20%2Fsize%2F50",
+          "id": 2,
+          "ranking": 2,
+          "result": 2,
+          "title": "崔磊说"
+        },
+        {
+          "amount": 80,
+          "icon": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1545296423163&di=5222fa22340e3af07af9097debaa0a8c&imgtype=0&src=http%3A%2F%2Fku.90sjimg.com%2Fback_pic%2F04%2F91%2F91%2F77590f16815bcbe.jpg%2521%2Ffwfh%2F804x502%2Fquality%2F90%2Funsharp%2Ftrue%2Fcompress%2Ftrue%2Fwatermark%2Ftext%2FOTDorr7orqE%3D%2Ffont%2Fsimkai%2Falign%2Fsoutheast%2Fopacity%2F20%2Fsize%2F50",
+          "id": 3,
+          "ranking": 3,
+          "result": 3,
+          "title": "崔磊陪你打天下"
+        }
+      ],
+      "total": 3
+    },
+    "message": "成功"
+  }

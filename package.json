@@ -5,16 +5,13 @@
   "scripts": {
     "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "api": "nodemon -e json -w api_interface api_interface/app.js",
-    "api_dev": "concurrently \"yarn api\" \"yarn dev\" "
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "axios": "^0.18.0",
     "element-ui": "^2.4.6",
     "express": "^4.16.4",
     "moment": "^2.22.2",
-    "nodemon": "^1.18.7",
     "vee-validate": "2.0.0-rc.25",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1"
@@ -27,7 +24,6 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0-0",
-    "express-mockjs": "^0.4.9",
     "less": "^3.8.1",
     "less-loader": "^4.1.0",
     "vue-template-compiler": "^2.5.17"

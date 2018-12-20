@@ -1,0 +1,64 @@
+{
+    "code": "2000",
+    "message": "成功",
+    "data": {
+        "list": [
+            {
+            "ctime": 1538031573001,
+            "deviceModel": "iPhone10,3",
+            "ip": "115.239.175.222",
+            "logType": 2,
+            "osVersion": "12.0",
+            "registerType": 3,
+            "uid": 100074
+            },
+            {
+            "ctime": 1538031699343,
+            "deviceModel": "iPhone10,3",
+            "ip": "115.239.175.222",
+            "logType": 2,
+            "osVersion": "12.0",
+            "registerType": 3,
+            "uid": 100074
+            },
+            {
+            "ctime": 1538031829739,
+            "deviceModel": "iPhone10,3",
+            "ip": "115.239.175.222",
+            "logType": 2,
+            "osVersion": "12.0",
+            "registerType": 3,
+            "uid": 100074
+            },
+            {
+            "ctime": 1538031914598,
+            "deviceModel": "iPhone10,3",
+            "ip": "115.239.175.222",
+            "logType": 2,
+            "osVersion": "12.0",
+            "registerType": 3,
+            "uid": 100074
+            },
+            {
+            "ctime": 1538031930885,
+            "deviceModel": "iPhone10,3",
+            "ip": "115.239.175.222",
+            "logType": 2,
+            "osVersion": "12.0",
+            "registerType": 3,
+            "uid": 100074
+            },
+            {
+            "ctime": 1538183997410,
+            "deviceModel": "iPhone10,3",
+            "ip": "115.239.175.222",
+            "logType": 2,
+            "mobile": "18737065233",
+            "osVersion": "12.0",
+            "registerType": 2,
+            "uid": 100074
+            }
+        ],
+        "total": 6
+    }
+}

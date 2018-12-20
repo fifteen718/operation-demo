@@ -56,27 +56,25 @@ export default {
         login() {
             this.$validator.validateAll().then((valid) => {
                 if (valid) {
-                    localStorage.operatorId = '111111'
-                    this.$router.replace('/welcome')
-                    // let data = {
-                    //     'account': this.account,
-                    //     'password': this.password
-                    // }
-                    // this.disabled = true
-                    // this.$apis.login(data).then(res => {
-                    //     this.disabled = false
-                    //     if (res.code === '2000') {
-                    //         // this.$parent.$emit('initMenu', this.account)
-                    //         localStorage.operatorId = res.data
-                    //         this.$router.replace('/welcome')
-                    //     } else {
-                    //         this.showError = true
-                    //         this.errorMsg = res.message
-                    //     }
-                    // }).catch(error => {
-                    //     this.disabled = false
-                    //     this.$message.error(error.message)
-                    // })
+                    let data = {
+                        'account': this.account,
+                        'password': this.password
+                    }
+                    this.disabled = true
+                    this.$apis.login(data).then(res => {
+                        this.disabled = false
+                        if (res.code === '2000') {
+                            // this.$parent.$emit('initMenu', this.account)
+                            localStorage.operatorId = res.data
+                            this.$router.replace('/welcome')
+                        } else {
+                            this.showError = true
+                            this.errorMsg = res.message
+                        }
+                    }).catch(error => {
+                        this.disabled = false
+                        this.$message.error(error.message)
+                    })
                 }
             })
         }

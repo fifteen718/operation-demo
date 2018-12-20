@@ -1,0 +1,89 @@
+{
+    "code": "2000",
+    "data": {
+      "list": [
+        {
+          "amount": 5888,
+          "area": "杭州",
+          "icon": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1545296171144&di=fa102cf82802ff883732047ca86467cb&imgtype=0&src=http%3A%2F%2Fstatic.managershare.com%2Fuploads%2F2018%2F11%2F15421609864804.jpg%3FimageView2%2F2%2Fw%2F760",
+          "id": 2,
+          "name": "乐创梦工厂",
+          "ranking": 1,
+          "result": 1,
+          "title": "乐创梦工厂"
+        },
+        {
+          "amount": 3002,
+          "area": "杭州",
+          "icon": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1545296171144&di=fa102cf82802ff883732047ca86467cb&imgtype=0&src=http%3A%2F%2Fstatic.managershare.com%2Fuploads%2F2018%2F11%2F15421609864804.jpg%3FimageView2%2F2%2Fw%2F760",
+          "id": 5,
+          "ranking": 2,
+          "result": 3,
+          "name": "崔磊说小米",
+          "title": "崔磊说"
+        },
+        {
+          "amount": 1222,
+          "area": "杭州",
+          "icon": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1545296171144&di=fa102cf82802ff883732047ca86467cb&imgtype=0&src=http%3A%2F%2Fstatic.managershare.com%2Fuploads%2F2018%2F11%2F15421609864804.jpg%3FimageView2%2F2%2Fw%2F760",
+          "id": 7,
+          "name": "乐客专栏崔磊说京东",
+          "ranking": 3,
+          "result": 3,
+          "title": "乐客专栏"
+        },
+        {
+          "amount": 1009,
+          "area": "杭州",
+          "icon": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1545296171144&di=fa102cf82802ff883732047ca86467cb&imgtype=0&src=http%3A%2F%2Fstatic.managershare.com%2Fuploads%2F2018%2F11%2F15421609864804.jpg%3FimageView2%2F2%2Fw%2F760",
+          "id": 11,
+          "name": "云论互联网",
+          "ranking": 4,
+          "result": 4,
+          "title": "创业找崔磊"
+        },
+        {
+          "amount": 1002,
+          "area": "杭州",
+          "icon": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1545296171144&di=fa102cf82802ff883732047ca86467cb&imgtype=0&src=http%3A%2F%2Fstatic.managershare.com%2Fuploads%2F2018%2F11%2F15421609864804.jpg%3FimageView2%2F2%2Fw%2F760",
+          "id": 14,
+          "name": "云论互联网",
+          "ranking": 5,
+          "result": 5,
+          "title": "乐客独角兽"
+        },
+        {
+          "amount": 998,
+          "area": "杭州",
+          "icon": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1545296171144&di=fa102cf82802ff883732047ca86467cb&imgtype=0&src=http%3A%2F%2Fstatic.managershare.com%2Fuploads%2F2018%2F11%2F15421609864804.jpg%3FimageView2%2F2%2Fw%2F760",
+          "id": 17,
+          "name": "云论互联网",
+          "ranking": 6,
+          "result": 6,
+          "title": "崔磊陪你打天下"
+        },
+        {
+          "amount": 787,
+          "area": "杭州",
+          "icon": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1545296171144&di=fa102cf82802ff883732047ca86467cb&imgtype=0&src=http%3A%2F%2Fstatic.managershare.com%2Fuploads%2F2018%2F11%2F15421609864804.jpg%3FimageView2%2F2%2Fw%2F760",
+          "id": 18,
+          "name": "云论互联网",
+          "ranking": 7,
+          "result": 7,
+          "title": "报名中活动"
+        },
+        {
+          "amount": 500,
+          "area": "杭州",
+          "icon": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1545296171144&di=fa102cf82802ff883732047ca86467cb&imgtype=0&src=http%3A%2F%2Fstatic.managershare.com%2Fuploads%2F2018%2F11%2F15421609864804.jpg%3FimageView2%2F2%2Fw%2F760",
+          "id": 19,
+          "name": "云论互联网",
+          "ranking": 8,
+          "result": 8,
+          "title": "测试陪你打天下"
+        }
+      ],
+      "total": 8
+    },
+    "message": "成功"
+  }

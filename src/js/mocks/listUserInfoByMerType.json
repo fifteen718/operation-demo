@@ -1,0 +1,26 @@
+{
+    "code": "2000",
+    "message": "success",
+    "data": [
+      {
+        "uid": 213123,
+        "userName": "安徒生"
+      },
+      {
+        "uid": 222,
+        "userName": "鲁班"
+      },
+      {
+        "uid": 333,
+        "userName": "张飞"
+      },
+      {
+        "uid": 444,
+        "userName": "貂蝉"
+      },
+      {
+        "uid": 555,
+        "userName": "妲己"
+      }
+    ]
+}

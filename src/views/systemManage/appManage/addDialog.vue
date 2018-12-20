@@ -93,8 +93,6 @@ export default {
         value(val) {
             this.addDialogVisible = val
             if (val) {
-                console.log('val is')
-                console.log(val)
                 if (this.dialogData) {
                     this.dialogTitle = '修改APP版本升级'
                     this.formData = { ...this.dialogData }

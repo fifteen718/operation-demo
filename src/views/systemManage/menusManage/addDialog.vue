@@ -49,7 +49,6 @@ export default {
             default: false
         },
         dialogData: {
-            type: Object,
             default: null
         }
     },

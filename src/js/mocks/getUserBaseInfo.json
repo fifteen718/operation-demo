@@ -1,0 +1,21 @@
+{
+    "code": "2000",
+    "data": {
+      "address": "哈萨克斯坦吉尔吉斯斯坦埃塞俄比亚",
+      "city": "北京市 北京市 东城区",
+      "company": "阿里巴巴",
+      "ctime": 1536067410655,
+      "email": "11212@qq.com",
+      "gender": 1,
+      "invalidTime": 1567135755213,
+      "level": 1,
+      "mobile": "15906632022",
+      "motto": "一句话介绍不完自己",
+      "position": "000",
+      "registerType": 2,
+      "uid": 100022,
+      "userName": "100022",
+      "vip": true
+    },
+    "message": "成功"
+}
