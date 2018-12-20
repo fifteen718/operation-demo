@@ -12,9 +12,6 @@
 ├── README.md  ------------------------ 说明文件
 ├── package.json  --------------------- 项目配置
 ├── vue.config.js  -------------------- webpack配置入口
-├── api_interface  -------------------- 本地mock
-├──   ├── mocks  ---------------------- 本地mock数据文件
-├──   └── index.html  ----------------- 本地mock配置文件
 ├── public  --------------------------- 入口文件
 ├──   ├── favicon.ico  ---------------- 网页图标
 ├──   └── index.html  ----------------- 入口页面
@@ -72,8 +69,12 @@ yarn build
 * [webpack](https://webpack.docschina.org/concepts/) 模块打包工具
 
 ## 友情提示
-如果`vee-validate`在项目运行时报错，请重新安装旧版本，操作如下：
+1. 如果`vee-validate`在项目运行时报错，请重新安装旧版本，操作如下：
 
 `npm uninstall vee-validate` 或 `yarn remove vee-validate`
 
 `npm install vee-validate@2.0.0-rc.25` 或 `yarn add vee-validate@2.0.0-rc.25`
+
+2. 路由模式变更
+router.js -> 路由切换history模式去URL中的#号，`mode: 'history'`
+vue.config.js -> 注释掉`baseUrl: process.env.NODE_ENV === 'production' ? './' : '/'`即可
