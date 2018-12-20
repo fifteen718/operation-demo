@@ -21,6 +21,7 @@
     ├── js ---------------------------- 全局变量
     ├──  ├── fetch  ------------------- 请求配置 (axios ajax配置管理文件)
     ├──  ├── formatters  -------------- 数据格式化配置
+    ├──  ├── mocks  ------------------- 本地mock数据
     ├──  └── veeValidate -------------- 表单校验配置
     ├── views  ------------------------ 页面集合目录
     ├── App.less  --------------------- 主样式
@@ -38,21 +39,14 @@ yarn config set registry htts://registry.npm.taobao.org
 # 安装依赖
 yarn install
 
-# 启动本地代理
-yarn api
-
 # 启动本地调试
 yarn dev
-
-# 启动本地代理并调试
-yarn api_dev
-
-# eslint格式校验
-yarn lint
 
 # 打包压缩
 yarn build
 
+# eslint格式校验
+yarn lint
 ```
 
 ## 所需技术栈
@@ -69,11 +63,9 @@ yarn build
 
 ## 友情提示
 1. 如果`vee-validate`在项目运行时报错，请重新安装旧版本，操作如下：
+* `npm uninstall vee-validate` 或 `yarn remove vee-validate`
+* `npm install vee-validate@2.0.0-rc.25` 或 `yarn add vee-validate@2.0.0-rc.25`
 
-`npm uninstall vee-validate` 或 `yarn remove vee-validate`
-
-`npm install vee-validate@2.0.0-rc.25` 或 `yarn add vee-validate@2.0.0-rc.25`
-
-2. 路由模式变更
-router.js -> 路由切换history模式去URL中的#号，`mode: 'history'`
-vue.config.js -> 注释掉`baseUrl: process.env.NODE_ENV === 'production' ? './' : '/'`即可
+2. 路由模式变更，操作如下：
+* router.js -> 路由切换history模式去URL中的#号，`mode: 'history'`
+* vue.config.js -> 注释掉`baseUrl: process.env.NODE_ENV === 'production' ? './' : '/'`即可
