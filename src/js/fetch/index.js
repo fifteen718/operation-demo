@@ -1,13 +1,13 @@
 import axios from 'axios'
 import baseURL from './baseUrlConfig.js'
-const CancelToken = axios.CancelToken
-function addCancel(config, $this, cancel) {
-    if ($this) {
-        config.CancelToken = new CancelToken(function executor(c) {
-            $this[cancel] = c
-        })
-    }
-}
+// const CancelToken = axios.CancelToken
+// function addCancel(config, $this, cancel) {
+//     if ($this) {
+//         config.CancelToken = new CancelToken(function executor(c) {
+//             $this[cancel] = c
+//         })
+//     }
+// }
 
 const fetch = (router) => {
     const instance = axios.create({
@@ -74,7 +74,7 @@ const fetch = (router) => {
         }
         try {
             res = require('../mocks/' + lastName + '.json')
-        } catch(err) {
+        } catch (err) {
             console.error('请求mock数据失败：不存在 ' + lastName + '.json')
         }
         // 输出请求信息

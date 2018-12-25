@@ -5,5 +5,5 @@ module.exports = {
     // baseUrl: process.env.NODE_ENV === 'production' ? '/operation-preview/' : '/'
 
     // vue-router 默认（'hash'）模式下 请取相对路径
-    baseUrl: process.env.NODE_ENV === 'production' ? './' : '/'
+    // baseUrl: process.env.NODE_ENV === 'production' ? './' : '/'
 }
